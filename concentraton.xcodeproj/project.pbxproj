@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE4C90BF218D71280077EABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C90BE218D71280077EABA /* AppDelegate.swift */; };
+		EE4C90C1218D71280077EABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C90C0218D71280077EABA /* ViewController.swift */; };
+		EE4C90C4218D71280077EABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C90C2218D71280077EABA /* Main.storyboard */; };
+		EE4C90C6218D712A0077EABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE4C90C5218D712A0077EABA /* Assets.xcassets */; };
+		EE4C90C9218D712A0077EABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE4C90C7218D712A0077EABA /* LaunchScreen.storyboard */; };
+		EE4C90D4218D712A0077EABA /* concentratonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C90D3218D712A0077EABA /* concentratonTests.swift */; };
+		EE4C90DF218D712A0077EABA /* concentratonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C90DE218D712A0077EABA /* concentratonUITests.swift */; };
+		EE87158521A437B80032303C /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87158421A437B80032303C /* Concentration.swift */; };
+		EE87158721A437F20032303C /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE87158621A437F20032303C /* Card.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4C90D0218D712A0077EABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4C90B3218D71280077EABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4C90BA218D71280077EABA;
+			remoteInfo = concentraton;
+		};
+		EE4C90DB218D712A0077EABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE4C90B3218D71280077EABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4C90BA218D71280077EABA;
+			remoteInfo = concentraton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE4C90BB218D71280077EABA /* concentraton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = concentraton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C90BE218D71280077EABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE4C90C0218D71280077EABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE4C90C3218D71280077EABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE4C90C5218D712A0077EABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE4C90C8218D712A0077EABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE4C90CA218D712A0077EABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4C90CF218D712A0077EABA /* concentratonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = concentratonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C90D3218D712A0077EABA /* concentratonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concentratonTests.swift; sourceTree = "<group>"; };
+		EE4C90D5218D712A0077EABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4C90DA218D712A0077EABA /* concentratonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = concentratonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE4C90DE218D712A0077EABA /* concentratonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = concentratonUITests.swift; sourceTree = "<group>"; };
+		EE4C90E0218D712A0077EABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE87158421A437B80032303C /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		EE87158621A437F20032303C /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE4C90B8218D71280077EABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C90CC218D712A0077EABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C90D7218D712A0077EABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE4C90B2218D71280077EABA = {
+			isa = PBXGroup;
+			children = (
+				EE4C90BD218D71280077EABA /* concentraton */,
+				EE4C90D2218D712A0077EABA /* concentratonTests */,
+				EE4C90DD218D712A0077EABA /* concentratonUITests */,
+				EE4C90BC218D71280077EABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE4C90BC218D71280077EABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C90BB218D71280077EABA /* concentraton.app */,
+				EE4C90CF218D712A0077EABA /* concentratonTests.xctest */,
+				EE4C90DA218D712A0077EABA /* concentratonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4C90BD218D71280077EABA /* concentraton */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C90C0218D71280077EABA /* ViewController.swift */,
+				EE4C90C2218D71280077EABA /* Main.storyboard */,
+				EE4C90EC218D73FB0077EABA /* Supporting files */,
+				EE4C90CA218D712A0077EABA /* Info.plist */,
+				EE87158421A437B80032303C /* Concentration.swift */,
+				EE87158621A437F20032303C /* Card.swift */,
+			);
+			path = concentraton;
+			sourceTree = "<group>";
+		};
+		EE4C90D2218D712A0077EABA /* concentratonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C90D3218D712A0077EABA /* concentratonTests.swift */,
+				EE4C90D5218D712A0077EABA /* Info.plist */,
+			);
+			path = concentratonTests;
+			sourceTree = "<group>";
+		};
+		EE4C90DD218D712A0077EABA /* concentratonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C90DE218D712A0077EABA /* concentratonUITests.swift */,
+				EE4C90E0218D712A0077EABA /* Info.plist */,
+			);
+			path = concentratonUITests;
+			sourceTree = "<group>";
+		};
+		EE4C90EC218D73FB0077EABA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				EE4C90BE218D71280077EABA /* AppDelegate.swift */,
+				EE4C90C5218D712A0077EABA /* Assets.xcassets */,
+				EE4C90C7218D712A0077EABA /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE4C90BA218D71280077EABA /* concentraton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C90E3218D712A0077EABA /* Build configuration list for PBXNativeTarget "concentraton" */;
+			buildPhases = (
+				EE4C90B7218D71280077EABA /* Sources */,
+				EE4C90B8218D71280077EABA /* Frameworks */,
+				EE4C90B9218D71280077EABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = concentraton;
+			productName = concentraton;
+			productReference = EE4C90BB218D71280077EABA /* concentraton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE4C90CE218D712A0077EABA /* concentratonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C90E6218D712A0077EABA /* Build configuration list for PBXNativeTarget "concentratonTests" */;
+			buildPhases = (
+				EE4C90CB218D712A0077EABA /* Sources */,
+				EE4C90CC218D712A0077EABA /* Frameworks */,
+				EE4C90CD218D712A0077EABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4C90D1218D712A0077EABA /* PBXTargetDependency */,
+			);
+			name = concentratonTests;
+			productName = concentratonTests;
+			productReference = EE4C90CF218D712A0077EABA /* concentratonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE4C90D9218D712A0077EABA /* concentratonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE4C90E9218D712A0077EABA /* Build configuration list for PBXNativeTarget "concentratonUITests" */;
+			buildPhases = (
+				EE4C90D6218D712A0077EABA /* Sources */,
+				EE4C90D7218D712A0077EABA /* Frameworks */,
+				EE4C90D8218D712A0077EABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE4C90DC218D712A0077EABA /* PBXTargetDependency */,
+			);
+			name = concentratonUITests;
+			productName = concentratonUITests;
+			productReference = EE4C90DA218D712A0077EABA /* concentratonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE4C90B3218D71280077EABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jiang;
+				TargetAttributes = {
+					EE4C90BA218D71280077EABA = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					EE4C90CE218D712A0077EABA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE4C90BA218D71280077EABA;
+					};
+					EE4C90D9218D712A0077EABA = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = EE4C90BA218D71280077EABA;
+					};
+				};
+			};
+			buildConfigurationList = EE4C90B6218D71280077EABA /* Build configuration list for PBXProject "concentraton" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE4C90B2218D71280077EABA;
+			productRefGroup = EE4C90BC218D71280077EABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE4C90BA218D71280077EABA /* concentraton */,
+				EE4C90CE218D712A0077EABA /* concentratonTests */,
+				EE4C90D9218D712A0077EABA /* concentratonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE4C90B9218D71280077EABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C90C9218D712A0077EABA /* LaunchScreen.storyboard in Resources */,
+				EE4C90C6218D712A0077EABA /* Assets.xcassets in Resources */,
+				EE4C90C4218D71280077EABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C90CD218D712A0077EABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C90D8218D712A0077EABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE4C90B7218D71280077EABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C90C1218D71280077EABA /* ViewController.swift in Sources */,
+				EE4C90BF218D71280077EABA /* AppDelegate.swift in Sources */,
+				EE87158521A437B80032303C /* Concentration.swift in Sources */,
+				EE87158721A437F20032303C /* Card.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C90CB218D712A0077EABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C90D4218D712A0077EABA /* concentratonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4C90D6218D712A0077EABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE4C90DF218D712A0077EABA /* concentratonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE4C90D1218D712A0077EABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4C90BA218D71280077EABA /* concentraton */;
+			targetProxy = EE4C90D0218D712A0077EABA /* PBXContainerItemProxy */;
+		};
+		EE4C90DC218D712A0077EABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE4C90BA218D71280077EABA /* concentraton */;
+			targetProxy = EE4C90DB218D712A0077EABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE4C90C2218D71280077EABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C90C3218D71280077EABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE4C90C7218D712A0077EABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE4C90C8218D712A0077EABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE4C90E1218D712A0077EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE4C90E2218D712A0077EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE4C90E4218D712A0077EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = concentraton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.concentraton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE4C90E5218D712A0077EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = concentraton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.concentraton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE4C90E7218D712A0077EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = concentratonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.concentratonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concentraton.app/concentraton";
+			};
+			name = Debug;
+		};
+		EE4C90E8218D712A0077EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = concentratonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.concentratonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/concentraton.app/concentraton";
+			};
+			name = Release;
+		};
+		EE4C90EA218D712A0077EABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = concentratonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.concentratonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = concentraton;
+			};
+			name = Debug;
+		};
+		EE4C90EB218D712A0077EABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2VLQ5AZ3L2;
+				INFOPLIST_FILE = concentratonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jiang.concentratonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = concentraton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE4C90B6218D71280077EABA /* Build configuration list for PBXProject "concentraton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C90E1218D712A0077EABA /* Debug */,
+				EE4C90E2218D712A0077EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4C90E3218D712A0077EABA /* Build configuration list for PBXNativeTarget "concentraton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C90E4218D712A0077EABA /* Debug */,
+				EE4C90E5218D712A0077EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4C90E6218D712A0077EABA /* Build configuration list for PBXNativeTarget "concentratonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C90E7218D712A0077EABA /* Debug */,
+				EE4C90E8218D712A0077EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE4C90E9218D712A0077EABA /* Build configuration list for PBXNativeTarget "concentratonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE4C90EA218D712A0077EABA /* Debug */,
+				EE4C90EB218D712A0077EABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE4C90B3218D71280077EABA /* Project object */;
+}
